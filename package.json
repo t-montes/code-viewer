@@ -1,5 +1,5 @@
 {
-  "name": "codeviewer",
+  "name": "script-viewer",
   "version": "1.0.0",
   "description": "CodeViewer is a lightweight, customizable web component that makes it easy to display beautifully formatted code snippets on your website",
   "main": "./src/code-viewer.js",
