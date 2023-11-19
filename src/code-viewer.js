@@ -55,6 +55,7 @@ class CodeViewer extends HTMLElement {
                     text-align: left; /* Ensures code text is aligned left */
                     overflow-x: auto; /* Maybe not necessary, but to show the horizontal scroll bar */
                     border-radius: 10px;
+                    width: 100%;
                 }
                 
                 .copy-code {
