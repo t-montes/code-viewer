@@ -15,7 +15,7 @@ To use CodeViewer in your project, follow these steps:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/gh/t-montes/code-viewer@master/code-viewer.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/t-montes/code-viewer@master/dist/code-viewer.min.js"></script>
 ```
 
 2. Use the `code-viewer` tag in your HTML to display code snippets:
@@ -25,6 +25,12 @@ To use CodeViewer in your project, follow these steps:
     console.log("Hello World!");
     // more code here
 </code-viewer>
+```
+
+If you want to use an specific version of the component, instead you must import the `code-viewer.js` file from the `versions` folder:
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/t-montes/code-viewer@master/versions/<version>/code-viewer.min.js">
 ```
 
 ## Features
